@@ -1,0 +1,54 @@
+body {
+    background-color: #1d1a05;
+}
+
+
+/* Barra de navegación */
+
+.navbar-panda {
+    background-color: #ca3c25;
+    color: #f1cb97;
+    padding-top: 10px;
+}
+
+.navbar-panda li {
+    margin-right: 10px;
+}
+
+
+/* Fotos pandas */
+
+.panda-frame img {
+    border: 15px solid gray;
+}
+
+.panda-frame .close-x {
+    position: absolute;
+    top: 20px;
+    left: 35px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+/* Titulos Panda */
+
+.pandas-title {
+    margin-top: 100px;
+}
+
+.pandas-title .title-box .title {
+    background-color: #ca3c25;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    color: #f1cb97;
+}
+
+.pandas-paragraphs {
+    color: #f1cb97;
+    margin-top: 100px;
+    text-align: justify;
+}

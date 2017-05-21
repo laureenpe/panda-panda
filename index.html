@@ -2,47 +2,90 @@
 <html lang="en">
 
 <head>
-    <title></title>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
-    <link href="main/css/style.css" rel="stylesheet">
+    <title>Pandas</title>
+
+    <!-- Bootstrap -->
+    <link href="boostrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Main CSS Class -->
+    <link href="css/main.css" rel="stylesheet">
+
 </head>
 
 <body>
-    <section class="nav-bar">
-        <a href="#main">Inicio</a>
-        <a href="#main">Pandas</a>
-        <a href="#main">Historia</a>
-        <a href="#main">Extinción</a>
+    <nav class="navbar navbar-panda">
+        <div class="container">
+            <ul class="nav navbar-nav">
+                <li>Inicio</li>
+                <li>Pandas</li>
+                <li>Historia</li>
+                <li>Extinción</li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="pandas-photos">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 panda-frame"><img src="img/a1.jpg">
+                    <a href="#" class="close-x">X</a>
+                </div>
+                <div class="col-md-3 panda-frame"><img src="img/a2.jpg">
+                    <a href="#" class="close-x">X</a>
+                </div>
+                <div class="col-md-3 panda-frame"><img src="img/a3.jpg">
+                    <a href="#" class="close-x">X</a>
+                </div>
+                <div class="col-md-3 panda-frame"><img src="img/a4.jpg">
+                    <a href="#" class="close-x">X</a>
+                </div>
+            </div>
+        </div>
     </section>
-    <section class="container-pictures" id="pictures">
-        <span class="close">&times;</span>
-        <span class="close">&times;</span>
-        <span class="close">&times;</span>
 
-        <!--Here goes the pictures-->
+    <section class="pandas-title">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 title-box">
+                    <span class="title">Origen</span>
+                </div>
+                <div class="col-md-4 title-box">
+                    <span class="title">Extinción</span>
+                </div>
+                <div class="col-md-4 title-box">
+                    <span class="title" id="restore-photos">Restaurar Fotos</span>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section class="links">
-        <a href="#text">Origen</a>
-        <a href="#text">Extinción</a>
-        <a href="#text">Restaurar Fotos</a>
+    <section class="pandas-paragraphs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices vel velit nec suscipit. Sed dui lorem, gravida at erat
+                    vitae, tincidunt volutpat purus. Maecenas libero lectus, elementum faucibus semper vel, feugiat vel lacus.
+                    Cras non auctor neque. Curabitur ac interdum libero. Duis bibendum aliquet mauris, ut molestie lorem
+                    viverra quis. Proin pharetra vestibulum mi vel imperdiet. Proin lacus sapien, feugiat vitae consectetur
+                    nec, aliquet ut lectus.
+                </div>
+                <div class="col-md-6">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices vel velit nec suscipit. Sed dui lorem, gravida at erat
+                    vitae, tincidunt volutpat purus. Maecenas libero lectus, elementum faucibus semper vel, feugiat vel lacus.
+                    Cras non auctor neque. Curabitur ac interdum libero. Duis bibendum aliquet mauris, ut molestie lorem
+                    viverra quis. Proin pharetra vestibulum mi vel imperdiet. Proin lacus sapien, feugiat vitae consectetur
+                    nec, aliquet ut lectus.
+                </div>
+            </div>
+        </div>
     </section>
 
-    <main>
-        <p class="title-one">Aute fugiat ea exercitation pariatur elit. Esse laboris nisi reprehenderit incididunt nostrud incididunt magna laborum. Id est cupidatat consequat ut esse elit tempor anim consequat esse ut. Laboris veniam velit exercitation consequat aliquip
-            nostrud dolor fugiat deserunt non irure laborum.</p>
-
-        <p class="title-two">Exercitation cupidatat ipsum occaecat est do amet consectetur ut nulla nostrud reprehenderit. Exercitation incididunt aliqua velit ipsum nulla officia fugiat. Laborum elit ea tempor exercitation tempor. Deserunt non laborum Lorem incididunt nostrud
-            excepteur adipisicing consequat cupidatat id ex. Cillum pariatur ullamco aute pariatur nostrud pariatur in quis magna enim cupidatat in ea. Labore deserunt adipisicing ipsum do fugiat tempor velit enim.</p>
-    </main>
-
-
-
-    <script src="main/js/javascript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="boostrap/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
-
-
 
 </html>
