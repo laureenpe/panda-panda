@@ -1,0 +1,16 @@
+* {
+    padding: 0px;
+    font-family: 'Slabo 27px', serif;
+}
+
+
+/*Navbar*/
+
+.nav-bar {
+    background: darkred;
+}
+
+.nav-bar a {
+    color: white;
+    padding: 30px;
+}
